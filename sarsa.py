@@ -6,6 +6,7 @@ import sys
 from collections import defaultdict
 import itertools
 import time
+import utils
 
 class Sarsa:
     def __init__(self,weight_init,num_actions, env, gamma, alpha, use_func_approx,max_steps, epsilon, epsilon_decay, epsilon_min, action_selection_method = 'e-greedy',temperature = None, func_approx_type = 'fourier', order=None, num_state_dimensions = None):

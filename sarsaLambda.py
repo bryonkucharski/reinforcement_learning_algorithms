@@ -6,6 +6,7 @@ import sys
 from collections import defaultdict
 import itertools
 import time
+import utils
 
 class SarsaLambda:
     def __init__(self, weight_init, num_actions, env, gamma, alpha,lmbda, use_func_approx, max_steps, epsilon, epsilon_decay,

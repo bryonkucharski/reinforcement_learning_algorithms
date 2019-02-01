@@ -6,6 +6,7 @@ import sys
 from collections import defaultdict
 import itertools
 import time
+import utils
 
 def cross_entropy_policy_search(env,num_iterations, K, elite_K, N, esp, filename, filename2, use_multiprocess = True):
     """

@@ -6,6 +6,7 @@ import sys
 from collections import defaultdict
 import itertools
 import time
+import utils
 
 class TDLearning:
     def __init__(self,env,gamma, alpha, use_func_approx,func_approx_type = 'Fourier', order=None,num_state_dimensions = None):
